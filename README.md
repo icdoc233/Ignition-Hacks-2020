@@ -1,8 +1,8 @@
 # Ignition-Hacks-2020
 
-The general purpose of this program is to estimate one out of 6 academic attribute of a student (first period grade, second period grade, final grade, study time, number of failures, or number of absences) based on his other 5 attributes, as well as the general trend in his class. 
+The general purpose of this program is to estimate 1 out of 6 academic attributes of a student (first period grade, second period grade, final grade, study time, number of failures, number of absences) based on his other 5 attributes, as well as the general trend in his class. 
 
-The program does it by reading an csv file which contains the various attributes of a group of students, and building 5 different models (degree 1 - 5) using the polynomial regression algorithm. After the user enters their desired attribute, the program will ask for the remaining 5 attributes, and return the estimated result for each of the five models, as well as their corresponding R-Square Error values for the user to reference. 
+The program does it by reading an csv file which contains the various attributes of a group of students, and building 5 different models (degree 1 - 5) using the polynomial regression algorithm. After the user enters their desired attribute, the program will ask for the remaining 5 attributes, and return the estimated result from each of the five models, as well as their corresponding R-Square Error values for the user to reference. 
 
 The program stores the five models each time after training. It'll reuse the models if the user's next desired attribute is the same as the previous one. Or else, it'll retrain the models, dumping the previously stored one. 
 
